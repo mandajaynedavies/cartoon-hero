@@ -1,6 +1,7 @@
 html, body {
 	font-family: Arial, sans-serif;
 	margin: 0;
+	background-color: #1845db;
 }
 
 header {
@@ -13,11 +14,14 @@ header {
 header img {
 	border-radius: 150px;
 	border: 15px solid #efc12b;
+	box-shadow: 0 10px 20px black;
 }
 
 h1 {
 	font-size: 90px;
 	color: white;
+	text-shadow: 0 4px 20px black;
+	text-transform: uppercase;
 }
 
 .content {
@@ -26,12 +30,31 @@ h1 {
 	padding: 0 20px;
 }
 
+h2 {
+	text-align: center;
+	background-color: white;
+	border-radius: 30px;
+	color: darkred;
+	box-shadow: 0 5px 10px black;
+}
+
+p, ol {
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 0 5px 10px black;
+	padding: 20px;
+}
+
+ol {
+	list-style: none;
+}
+
 img.big-image {
 	max-width: 100%;
 }
 
-p.caption{
-	font-size: 16px;
+.caption{
+	font-size: 12px;
 	color: lightgrey;
 	font-style: italic;
 }
